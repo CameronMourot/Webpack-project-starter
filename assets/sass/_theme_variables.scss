@@ -1,0 +1,117 @@
+/* GRID ---------- */
+
+$grid-gutter-width: 30px;
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: ( sm: 540px, md: 720px + $grid-gutter-width, lg: 960px + $grid-gutter-width, xl: 1080px + $grid-gutter-width);
+
+/* COLORS ---------- */
+
+$gray-bg: #EFEEF0;
+$white: #fff;
+$gray-100: #f6f5f5;
+$gray-200: #dddddd;
+$gray-300: #dee2e6;
+$gray-400: #bcbcbc;
+$gray-500: #999999;
+$gray-600: #6c757d;
+$gray-700: #555656;
+$gray-800: #444444;
+$gray-900: #222222;
+$black: #000;
+$blue: #288AC1;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #F06544;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+// Primary colors
+$primary: #008791;
+$secondary: #d30001;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $black;
+$body-bg: $white;
+$body-color: $gray-700;
+$border-color: $gray-200;
+$headings-color: $gray-700;
+$input-placeholder-color: $body-color;
+$link-color: $primary;
+$link-hover-color: darken($link-color, 15%);
+
+/* LINE HEIGHT ---------- */
+
+$line-height-base: 1.6;
+$line-height-sm: 0.8;
+$line-height-medium: 1;
+$line-height-lg: 1.2;
+
+/* FONTS ---------- */
+
+$font-family-robotolight: 'Roboto-Light',
+'Arial',
+'sans-serif';
+$font-family-robotomedium: 'Roboto-Medium',
+'Arial',
+'sans-serif';
+$font-family-robotoregular: 'Roboto-Regular',
+'Arial',
+'sans-serif';
+$font-family-robotothin: 'Roboto-Thin',
+'Arial',
+'sans-serif';
+
+$font-family-sans-serif: $font-family-robotoregular;
+$headings-font-family: $font-family-robotothin;
+$font-family-base: $font-family-sans-serif;
+
+/* FONT WEIGHT ---------- */
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$headings-font-weight: $font-weight-light;
+
+/* FONT SIZE ---------- */
+
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-xlg: ($font-size-base * 1.5); // 24px
+$font-size-lg: ($font-size-base * 1.25); // 20px
+$font-size-sm: ($font-size-base * .875); // 14px
+$font-size-xsm: ($font-size-base * .75); // 12px
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+/* CUSTOMS ---------- */
+
+$border-radius: .25rem;
+$border-radius-lg: .3rem;
+$border-radius-sm: .2rem;
+$transition-base: all .3s ease-in-out;
+
+/* SOCIAL COLORS ---------- */
+
+$facebook: #3d5c9a;
+$twitter: #009EE2;
+$google: #4285f4;
+$amazon: #ff9900;
+$googleplus: #dd4b39;
+$pinteresty: #cd1d1f;
+$youtube: #cc181e;
+$instagram: #3f729b;
+$tumblr: #35465d;
+$vimeo: #1ab7ea;
+$vine: #00B489;
